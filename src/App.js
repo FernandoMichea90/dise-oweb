@@ -371,6 +371,10 @@ useEffect(() => {
 
       <div className="row">
 
+
+
+        
+
         <div className="col l6 m6 s12 white-text textoLeft" >
         </div>
 
@@ -458,193 +462,85 @@ useEffect(() => {
 
 
 
-      <h1 className="tituloCentro tituloNegro white-text espacioSuperiorDiv espacioInferiorDiv margenCero texto">
- <span className="headline-lines">
-  Tabla de Precios
-  </span>
-</h1>
-
-
-
       <div className="row">
-
-      
-        <div className="col l4 m4 s12 txtBlanco">
-
-          <ul>
-
-            <li>
-                <div className="divUl">
-                  Basic
-                </div>
-
-            </li>
-            <li>
-                <div className="divPrice">
-                  $50.000
-                  <span className="spanPrice">
-                    clp
-                  </span>
-                </div>
-
-            </li>
-            <li>
-                <div className="tablaDescripcion">
-                  Pagina Informativa
-                </div>
-
-            </li>
-            <li>
-            <div className="tablaDescripcion">
-                  Single Page
-                </div>
-
-            </li>
-            <li>
-               <div className="tablaDescripcion">
-
-                  Formulario de Contacto    
-                </div>
-
-
-            </li>
-            <li>
-                <div className="divPrice pt-button">
-                 
-                  
-                </div>
-
-            </li>
-          </ul>
-
-
-
-        </div>
+        <div className="margenCuarenta">
 
         <div className="col l4 m4 s12 txtBlanco">
 
-      
-        <ul>
+          <h3 className="textoH4">
+            Diseño Web
+          </h3>
 
-<li>
-    <div className="divUl">
-      Estandar
-    </div>
+          <div className="divRedondo"  >
+              
+              <i className="fa fa-magic redondoIcono">
+             
+              </i>
+          </div>
 
-</li>
-<li>
-    <div className="divPrice">
-      $75.000
-      <span className="spanPrice">
-        clp
-      </span>
-    </div>
+          <div className="txtBlanco" >
 
-</li>
-<li>
-    <div className="tablaDescripcion">
-      3 projects
-    </div>
-
-</li>
-<li>
-<div className="tablaDescripcion">
-      3 projects
-    </div>
-
-</li>
-<li>
-<div className="tablaDescripcion">
-      3 projects
-    </div>
-
-
-</li>
-<li>
-                <div className="divPrice pt-button">
-                  <a className="boton btn-style-2">
-                    Contacto
-                  </a>
-                  
-                </div>
-
-
-
-
-
-            </li>
-</ul>
-
-
-
-
-        </div>
-
-        <div className="col l4 m4 s12 txtBlanco">
-
-       
-        <ul>
-
-<li>
-    <div className="divUl">
-      Basic
-    </div>
-
-</li>
-<li>
-    <div className="divPrice">
-      $60.000
-      <span className="spanPrice">
-        clp
-      </span>
-    </div>
-
-</li>
-<li>
-    <div className="tablaDescripcion">
-      3 projects
-    </div>
-
-</li>
-<li>
-<div className="tablaDescripcion">
-      3 projects
-    </div>
-
-</li>
-<li>
-<div className="tablaDescripcion">
-      3 projects
-    </div>
-
-
-</li>
-<li>
-
-
-
-
-
-
-                <div className="divPrice pt-button">
-                  <a className="boton btn-style-2">
-                    Contacto
-                  </a>
-                  
-                </div>
-
-            </li>
-</ul>
-
+            Diseño Web a tu medida,optimizado para cualquier dispositivo 
 
 
 
         </div>
 
 
+        </div>
 
+        <div   className="col l4 m4 s12 txtBlanco">
+
+          <h3 className="textoH4">
+            Ilustracion
+          </h3>
+
+          <div className="divRedondo"  >
+              
+              <i className="fa fa-paint-brush redondoIcono">
+             
+              </i>
+          </div>
+
+
+          <div className="txtBlanco" >
+
+          Diseño y paleta de colores adecuado a la imagen de tu empresa
+
+
+        </div>
+
+
+        </div>
+
+        <div className="col l4 m4 s12 txtBlanco">
+
+          <h3 className="textoH4">
+            Development
+          </h3>
+
+          <div className="divRedondo"  >
+              
+              <i className="fa fa-cogs redondoIcono">
+             
+              </i>
+          </div>
+
+
+          <div className="txtBlanco" >
+
+         Paginas web   rapidas y accesible 
+
+        </div>
+
+        </div>
+
+
+        </div>
 
       </div>
+
+
 
 
       <div className="caja">
