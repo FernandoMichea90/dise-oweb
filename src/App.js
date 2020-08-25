@@ -185,18 +185,7 @@ useEffect(() => {
 
       </a>
     </div>
-    <div class="carousel-item amber white-text" href="#two!">
-      <h2>Second Panel</h2>
-      <p class="white-text">This is your second panel</p>
-    </div>
-    <div class="carousel-item green white-text" href="#three!">
-      <h2>Third Panel</h2>
-      <p class="white-text">This is your third panel</p>
-    </div>
-    <div class="carousel-item blue white-text" href="#four!">
-      <h2>Fourth Panel</h2>
-      <p class="white-text">This is your fourth panel</p>
-    </div>
+   
   </div>
         
 
@@ -206,10 +195,12 @@ useEffect(() => {
       <a href="#!" style={{color:'#d6d6d6!important'}} class="brand-logo logo">Logo</a>
       <a  onClick={()=>menu()}  class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+      
+        <li><a href="badges.html">Portafolio</a></li>
+        <li><a href="collapsible.html">Servicio</a></li>
+        <li><a href="collapsible.html">Equipo</a></li>
+        <li><a href="mobile.html">Contacto</a></li>
+        <li><a href="sass.html">Nosotros</a></li>
       </ul>
     </div>
     
@@ -480,7 +471,7 @@ useEffect(() => {
 
           <div className="txtBlanco" >
 
-            Diseño Web a tu medida,optimizado para cualquier dispositivo 
+            Diseño Web personalizado a tu medida
 
 
 
