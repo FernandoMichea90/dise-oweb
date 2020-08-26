@@ -1,6 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
 .parrafoPrinc
 {
     padding: 0 30px;
@@ -309,7 +315,7 @@ background: #1b1b1b;
 
 
 .espacioSuperiorDiv{
-    padding-top: 80px;
+    padding-top: 117px;
 }
 .espacioInferiorDiv{
     padding-bottom: 80px;

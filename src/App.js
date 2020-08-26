@@ -196,11 +196,10 @@ useEffect(() => {
       <a  onClick={()=>menu()}  class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
       
-        <li><a href="badges.html">Portafolio</a></li>
-        <li><a href="collapsible.html">Servicio</a></li>
-        <li><a href="collapsible.html">Equipo</a></li>
-        <li><a href="mobile.html">Contacto</a></li>
-        <li><a href="sass.html">Nosotros</a></li>
+        <li><a href="#portafolio">Portafolio</a></li>
+        <li><a href="#servicio">Servicio</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#trabajo">Nosotros</a></li>
       </ul>
     </div>
     
@@ -214,7 +213,7 @@ useEffect(() => {
 
 
 
-<div className="container">
+<div id="trabajo" className="container ">
 
 <h1 className="tituloCentro tituloNegro espacioSuperiorDiv espacioInferiorDiv">
  <span className="headline-lines">
@@ -268,7 +267,7 @@ useEffect(() => {
 
 
 
-<div className="container">
+<div id="portafolio" className="container">
 <h1 className="tituloCentro tituloNegro espacioSuperiorDiv espacioInferiorDiv">
  <span className="headline-lines">
   Portafolio
@@ -286,59 +285,7 @@ useEffect(() => {
         <p className="tituloCentro">I'm surprised you had the courage to take the responsibility yourself.</p >
       </div>
 
-      <div className="col s12 m6 l4">  
-        <div className="divImage">
-          
-        </div>
-       
-        <p className="tituloCentro tituloProyecto">Titulo de Proyecto</p>
-        <hr></hr> 
-        <p className="tituloCentro">I'm surprised you had the courage to take the responsibility yourself.</p >
-      </div>
-
-      <div className="col s12 m6 l4">  
-        <div className="divImage">
-          
-        </div>
-
-        <p className="tituloCentro tituloProyecto">Titulo de Proyecto</p>
-        <hr></hr> 
-        <p className="tituloCentro">I'm surprised you had the courage to take the responsibility yourself.</p >
-      </div>
-
-
-
-      <div className="col s12 m6 l4">  
-        <div className="divImage">
-          
-        </div>
-        
-        <p className="tituloCentro tituloProyecto">Titulo de Proyecto</p>
-        <hr></hr>
-        <p className="tituloCentro">I'm surprised you had the courage to take the responsibility yourself.</p >
-      </div>
-
-      <div className="col s12 m6 l4">  
-        <div className="divImage">
-          
-        </div>
-        
-        <p className="tituloCentro tituloProyecto">Titulo de Proyecto</p>
-        <hr></hr>
-        <p className="tituloCentro">I'm surprised you had the courage to take the responsibility yourself.</p >
-      </div>
-
-      <div className="col s12 m6 l4">  
-        <div className="divImage">
-          
-        </div>
-       
-        <p className="tituloCentro tituloProyecto">Titulo de Proyecto</p>
-        <hr></hr>
-        <p className="tituloCentro">I'm surprised you had the courage to take the responsibility yourself.</p >
-      </div>
-
-
+     
 
 
 
@@ -351,7 +298,7 @@ useEffect(() => {
 <div class="parallax-container">
       <div class="parallax"><img src={imagen}/></div>
     </div>
-<div className="divContacto">
+<div className="divContacto" id="servicio">
 
 <h1 className="tituloCentro tituloNegro white-text espacioSuperiorDiv espacioInferiorDiv margenCero">
  <span className="headline-lines">
@@ -391,7 +338,7 @@ useEffect(() => {
 
           <div className="txtBlanco" >
 
-            Diseño Web a tu medida,optimizado para cualquier dispositivo 
+            Diseño Web a la medida de tu empresa
 
 
 
@@ -403,21 +350,20 @@ useEffect(() => {
         <div   className="col l4 m4 s12 txtBlanco">
 
           <h3 className="textoH4">
-            Ilustracion
+            Responsive 
           </h3>
 
           <div className="divRedondo"  >
               
-              <i className="fa fa-paint-brush redondoIcono">
-             
-              </i>
+              <span className="material-icons redondoIcono">
+             devices
+              </span>
           </div>
 
 
           <div className="txtBlanco" >
 
-          Diseño y paleta de colores adecuado a la imagen de tu empresa
-
+         Accesible desde cualquier dispositivo
 
         </div>
 
@@ -440,7 +386,7 @@ useEffect(() => {
 
           <div className="txtBlanco" >
 
-         Paginas web   rapidas y accesible 
+         Paginas web   rapidas y eficientes
 
         </div>
 
@@ -459,19 +405,19 @@ useEffect(() => {
         <div className="col l4 m4 s12 txtBlanco">
 
           <h3 className="textoH4">
-            Diseño Web
+          SEO
           </h3>
 
           <div className="divRedondo"  >
               
-              <i className="fa fa-magic redondoIcono">
-             
-              </i>
+              <span className="material-icons redondoIcono">
+              language
+              </span>
           </div>
 
           <div className="txtBlanco" >
 
-            Diseño Web personalizado a tu medida
+            Posicionamiento Web 
 
 
 
@@ -504,23 +450,23 @@ useEffect(() => {
 
         </div>
 
-        <div className="col l4 m4 s12 txtBlanco">
+        <div  className="col l4 m4 s12 txtBlanco">
 
           <h3 className="textoH4">
-            Development
+            Contacto 
           </h3>
 
           <div className="divRedondo"  >
               
-              <i className="fa fa-cogs redondoIcono">
-             
-              </i>
+              <span className="material-icons redondoIcono">
+             email
+              </span>
           </div>
 
 
           <div className="txtBlanco" >
 
-         Paginas web   rapidas y accesible 
+          Formulario de contacto y mensajeria instantanea para una rapida comunicacion con tus clientes 
 
         </div>
 
@@ -546,97 +492,12 @@ useEffect(() => {
 
 
     <div className="container">
-<h1 className="tituloCentro tituloNegro espacioSuperiorDiv espacioInferiorDiv">
- <span className="headline-lines">
-  Equipo
-  </span>
-</h1>
-
-<div className="row team">
-
-
-     <div className="col s12 m4 l4 ">
-
-       <div className="cajaPerfil">
-          <img src={perfil}>
-          </img>
-
-       </div>   
-
-       <p className="team-name">Fernando Michea</p>
-       <p className="team-job">Diseño Web</p>
-        <ul className="list-inline">
-          <li>
-              <a href="#">
-              <i class="fab fa-facebook-f"></i>
-              </a>
-          </li>
-          <li>
-          <a href="#">
-              <i class="fab fa-instagram"></i>
-              </a>
-          </li>
-          <li>
-          <a href="#">
-              <i class="fab fa-twitter"></i>
-          </a>
-
-          </li>
-        </ul>
-        <p>
-        </p>
-
-     </div>
-
-
-  
-     <div className="col s12 m4 l4 ">
-
-       <div className="cajaPerfil">
-          <img src={perfil}>
-          </img>
-
-       </div>   
-
-       <p className="team-name">Carolina Valdebenito</p>
-       <p className="team-job">Ventas</p>
-        <ul className="list-inline">
-          <li>
-              <a href="#">
-              <i class="fab fa-facebook-f"></i>
-              </a>
-          </li>
-          <li>
-          <a href="#">
-              <i class="fab fa-instagram"></i>
-              </a>
-          </li>
-          <li>
-          <a href="#">
-              <i class="fab fa-twitter"></i>
-          </a>
-
-          </li>
-        </ul>
-        <p>
-        </p>
-
-     </div>
-
-
-
-        
 
 
 
 </div>
 
-
-
-
-</div>
-
-<div className="divContacto pruebaContacto page-footer">
+<div  id="contacto" className="divContacto  pruebaContacto page-footer">
 <h1 className="tituloCentro tituloNegro white-text espacioSuperiorDiv espacioInferiorDiv margenCero">
  <span className="headline-lines">
   Contacto
@@ -652,7 +513,6 @@ useEffect(() => {
 
 
 <p>
-Si tienes alguna duda ponte  en contacto con nosotros  a  la brevedad y estaremos encantado de resolverte cualquiera de tus inquietudes.
 
 </p>
 
