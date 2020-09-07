@@ -245,15 +245,21 @@ useEffect(() => {
 <div className="container">
 <div class="carousel carousel-slider center">
     <div class="carousel-fixed-item center">
-      <a class="btn waves-effect white grey-text darken-text-2">button</a>
+      <a class="btn waves-effect white grey-text darken-text-2">Contacto</a>
     </div>
-    <div class="carousel-item red white-text imgCaruselUno" href="#one!">
-      <h2>First Panel</h2>
-      <p class="white-text">This is your first panel</p>
+    <div class="carousel-item red white-text imgCaruselDos  " href="#one!">
+      <div class="single">
+      <h2>Single Page</h2>
+      </div>
+
+      <div className="single singledos">
+      <p> a partir desde los </p>
+      <p className="precioTitulo"> $ 50.000 CLP </p>
+      </div> 
     </div>
     <div class="carousel-item amber white-text imgCaruselDos" href="#two!">
       <h2>Second Panel</h2>
-      <p class="white-text">This is your second panel</p>
+      <p class="white-text">$ 50.000 CLP</p>
     </div>
     
   </div>

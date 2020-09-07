@@ -577,3 +577,33 @@ nav ul {
       padding: 0;
     }
     }
+
+
+
+
+    .single{
+
+        background:rgba(0,0,0,0.58);
+            
+        color:white;
+        width: 300px;
+        border-radius: 5px;
+        margin-left:50px
+    }
+    .singledos{
+
+        margin:100px 24vw;
+    }
+
+    .single p{
+
+        margin:0
+    }
+
+    .precioTitulo
+    {
+        font-size: 30px!important;
+    }
+
+
+
