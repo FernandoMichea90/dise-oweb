@@ -16,6 +16,8 @@ html {
     font-weight: 400;
 }
 
+
+
 .divContacto
 {
     background:#2a2a2a;
@@ -24,11 +26,19 @@ html {
 }
 .divImagen
 {
-    background-image: url("https://c1.wallpaperflare.com/preview/644/560/36/business-cafe-coffee-drinking.jpg");
- 
+    /* background-image: url("https://c1.wallpaperflare.com/preview/644/560/36/business-cafe-coffee-drinking.jpg"); */
+    /* background-image: url("https://images.unsplash.com/photo-1481487196290-c152efe083f5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1130&q=80"); */
    width: 100%;
    background-repeat: no-repeat;
   background-size: cover;
+}
+.cajaPri{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .textoTitulo{
@@ -40,9 +50,51 @@ html {
 }
 .todaPantalla
 {
-    height: 89vh;
+    
+    position: absolute;
+    background-image: url('../imagen/Escritorio.jpg');
+   
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
 }
+.divPantalla
+{   
+    height: 900px !important;
+    overflow: hidden;
+    position: relative;
 
+}
+.Poligonopantalla{
+    position: absolute;
+    top:-350px;
+    left: 200px
+}
+.Caraperfil{
+    background-image: url('../imagen/perfil.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    border-radius:100%;
+    margin:auto
+
+}
+@media only screen and (max-width: 993px){
+    .Caraperfil{
+        background-image: url('../imagen/perfil.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+        width: 250px;
+        border-radius:100%;
+        margin:auto
+    
+    
+    }
+}
 .navegador ,.navegador a{
 
     background: white;
@@ -106,6 +158,7 @@ texto 70 px
     .txt70{
 
         font-size: 70px!important;
+        color:rgba(0,0,0,0.6)
     }
 
     .ulLista {
@@ -115,7 +168,7 @@ texto 70 px
         border-bottom: 1px solid rgba(255, 255, 255, 0.6);
         width: 750px;
         text-align: center;
-        margin: 20vh auto 0  auto !important;
+        margin: 30vh auto 0  auto !important;
     }
 }
     
@@ -131,13 +184,25 @@ texto 70 px
     margin: 50px auto 0  auto ;
 }
 
+
 .intro-linedos {
     border-bottom: 1px solid rgba(255, 255, 255, 0.6);
     width: 750px;
     text-align: center;
-    margin: 5vh auto 0  auto ;
+    margin: 30vh auto 0  auto ;
 }
 
+
+@media (max-width:800px){
+
+    .intro-linedos {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+        width: 750px;
+        text-align: center;
+        margin: 30vh auto 0  auto ;
+    }
+
+}
 
 
 /* texto titulo blanco*/
@@ -287,6 +352,47 @@ background: #1b1b1b;
     font-family: 'Open Sans', sans-serif;
    }
 
+
+   .parrafoTer{
+    text-align: center;
+    font-size: 23.5px;
+    line-height: 1.4em;
+    font-weight:bold;
+    color: #606060;
+    font-family: 'Oswald';
+   }
+
+   @media  (min-width: 0px)  and (max-width: 800px){
+
+    .parrafoTer{
+        margin-top:0vh;
+        font-size: 27.5px;
+        line-height: 1.6em;
+        color: #606060;
+      
+       }
+   
+}
+
+   .imgInicio{
+       width: 100%;
+   }
+
+
+   @media  (min-width: 0px)  and (max-width: 800px){
+
+    .imgInicio{
+        border-radius: 5em;
+      
+        margin:auto;
+        display: block;
+    }
+
+
+
+    }
+
+
    .imgCaruselUno
    {
        background-image: url('https://c0.wallpaperflare.com/preview/944/356/969/concept-construction-page-site.jpg');
@@ -424,6 +530,9 @@ p.team-job {
 .team{
     text-align: center;
 }
+
+
+
 
 
 
@@ -605,5 +714,75 @@ nav ul {
         font-size: 30px!important;
     }
 
+    .imagenPortafolio
+    {
+        width: 100%;
+        margin:20px 0px
+    }
 
+@media (max-width:600px){
+
+    nav .brand-logo {
+        position: absolute;
+        color: #fff;
+        display: inline-block;
+        font-size: 19px;
+        padding: 0;
+    }
+}
+
+/*  */
+
+.divPortafolioDosPrincipal{
+    height:100%;
+    width: 100%;
+    position: relative;
+    
+}
+@media (max-width:600px){
+    .divPortafolioDosPrincipal{
+        height:200px;
+        width: 100%;
+        position: relative;
+        
+    }
+
+}
+
+
+
+.divPortafolioDos{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.divBlanco{
+        position: absolute;
+        width: 100%;    
+        height:100%;
+        background-image: url('../imagen/blanco.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+@media (max-width:600px){
+
+        .divBlanco{
+            position: absolute;
+            width: 100%;    
+            background-image: url('../imagen/blancoCuatro.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    
+}
+.Blanco{
+        position: absolute;
+        width: 100%;    
+}
 
