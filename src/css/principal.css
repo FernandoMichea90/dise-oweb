@@ -737,6 +737,7 @@ nav ul {
     height:100%;
     width: 100%;
     position: relative;
+    min-height: 284px;
     
 }
 @media (max-width:600px){

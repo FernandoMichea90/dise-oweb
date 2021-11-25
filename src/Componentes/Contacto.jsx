@@ -12,6 +12,7 @@ import MailIcon from '@material-ui/icons/Mail';
 const useStyle=makeStyles((theme)=>({
         fondo:{
             color:"#ffffff",
+            position:"relative",
 
             "& .MuiIconButton-root":{
                 color:"#ffffff",

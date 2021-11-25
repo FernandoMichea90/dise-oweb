@@ -338,14 +338,14 @@ Y qué en conjunto podamos diseñar un lugar en el que las personas se sientan i
 
 
 
-    <Portafoliosdos  titulo='Clinica Almendral' reverso={false} imagen={almendral}>
+    <Portafoliosdos  titulo='Clinica Almendral' url='https://almendral.netlify.app/' reverso={false} imagen={almendral}>
 
     </Portafoliosdos>
 
-    <Portafoliosdos   titulo='Planet Colab'  reverso={true} imagen={Papercris}>
+    <Portafoliosdos   titulo='Planet Colab' url='https://planetcolab.com/'  reverso={true} imagen={Papercris}>
 
     </Portafoliosdos>
-    <Portafoliosdos  titulo='Hotel Ecomusic' reverso={false} imagen={hotel}>
+    <Portafoliosdos  titulo='Hotel Ecomusic' url='https://hotelecomusic.cl/' reverso={false} imagen={hotel}>
 
     </Portafoliosdos>
 
